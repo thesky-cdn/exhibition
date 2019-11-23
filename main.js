@@ -193,4 +193,4 @@ if(chat_filter.some(word => message.content.includes(word))){
 });
 
 
-bot.login(process.env.TOKEN);
+bot.login(process.env.TOKEN_BOT);
