@@ -183,6 +183,8 @@ const chat_filter = [
   "PUTAIN",
   "putain",
   "ptn",
+  "pute",
+  "PUTE",
 ];
 
 if(chat_filter.some(word => message.content.includes(word))){
