@@ -193,4 +193,4 @@ if(chat_filter.some(word => message.content.includes(word))){
 });
 
 
-bot.login("NjQ3NjQ3MTU1Mzg1MDA4MTQw.Xdiw5Q.wZIAz5qoqYtYxy4ZZhEA2vDuG58");
+bot.login(process.env.TOKEN);
